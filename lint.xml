@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility" severity="ignore" />
+    <issue id="HandlerLeak" severity="ignore">
+        <ignore path="src/com/example/spground/M0Activity.java" />
+    </issue>
+    <issue id="InflateParams" severity="ignore">
+        <ignore path="src/com/example/spground/M0Activity.java" />
+    </issue>
+    <issue id="SimpleDateFormat" severity="ignore" />
+    <issue id="UseSparseArrays" severity="ignore" />
+    <issue id="ViewHolder" severity="ignore" />
+</lint>
