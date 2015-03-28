@@ -9,11 +9,11 @@
     android:paddingRight="0dp"
     android:paddingTop="10dp" >
 
-    <com.example.spground.MyListView
+    <cn.edu.dlut.spground.MyListView
         android:id="@+id/ListView01"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:choiceMode="singleChoice" >
-    </com.example.spground.MyListView>
+    </cn.edu.dlut.spground.MyListView>
 
 </RelativeLayout>

@@ -8,21 +8,21 @@ package com.devspark.appmsg;
 
 public final class R {
 	public static final class color {
-		public static final int alert = 0x7f060000;
-		public static final int confirm = 0x7f060001;
-		public static final int info = 0x7f060002;
+		public static final int alert = 0x7f070000;
+		public static final int confirm = 0x7f070001;
+		public static final int info = 0x7f070002;
 	}
 	public static final class drawable {
 		public static final int ic_launcher = 0x7f020034;
 	}
 	public static final class layout {
-		public static final int app_msg = 0x7f030006;
+		public static final int app_msg = 0x7f030007;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f04000e;
+		public static final int app_name = 0x7f05000e;
 	}
 	public static final class style {
-		public static final int AppBaseTheme = 0x7f050000;
-		public static final int AppTheme = 0x7f050001;
+		public static final int AppBaseTheme = 0x7f060000;
+		public static final int AppTheme = 0x7f060001;
 	}
 }

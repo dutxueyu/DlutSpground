@@ -149,7 +149,7 @@
     /> 
     -->
 
-    <com.example.spground.MyGridView
+    <cn.edu.dlut.spground.MyGridView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/homegridview"
         android:layout_width="match_parent"
@@ -159,7 +159,7 @@
         android:horizontalSpacing="0.8dp"
         android:numColumns="3"
         android:verticalSpacing="0.8dp" >
-    </com.example.spground.MyGridView>
+    </cn.edu.dlut.spground.MyGridView>
 </LinearLayout>
 
 </ScrollView>

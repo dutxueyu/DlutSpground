@@ -11,5 +11,6 @@
 	<classpathentry exported="true" kind="lib" path="F:/Android/Spground/lib/android-support-v7-appcompat.jar"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="F:/Android/Spground/libs/BaiduLBS_Android.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

@@ -17,14 +17,14 @@ public final class R {
 		public static final int ic_launcher = 0x7f020034;
 	}
 	public static final class id {
-		public static final int scrollview = 0x7f070000;
+		public static final int scrollview = 0x7f080000;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f04000e;
+		public static final int app_name = 0x7f05000e;
 	}
 	public static final class style {
-		public static final int AppBaseTheme = 0x7f050000;
-		public static final int AppTheme = 0x7f050001;
+		public static final int AppBaseTheme = 0x7f060000;
+		public static final int AppTheme = 0x7f060001;
 	}
 	public static final class styleable {
 		public static final int[] PullToZoomView = { 0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028 };

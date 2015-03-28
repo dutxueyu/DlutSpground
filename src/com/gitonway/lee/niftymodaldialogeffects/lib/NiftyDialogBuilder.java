@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.example.spground.R;
+import cn.edu.dlut.spground.R;
 import com.gitonway.lee.niftymodaldialogeffects.lib.effects.BaseEffects;
 
 /*

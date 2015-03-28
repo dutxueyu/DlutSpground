@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.spground"
+    package="cn.edu.dlut.spground"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="21" />
+    <!-- 百度地图相关配置 -->
+     <!-- meta-data需要写在application中 -->
+     
+     <!-- 百度地图的所需权限 -->
+     <uses-permission android:name="android.permission.GET_ACCOUNTS" />  
+     <uses-permission android:name="android.permission.USE_CREDENTIALS" />  
+     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />  
+     <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />  
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  
+     <uses-permission android:name="android.permission.INTERNET" />  
+     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />  
+     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />  
+     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />  
+     <uses-permission android:name="android.permission.READ_PHONE_STATE" />  
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />  
+     <uses-permission android:name="android.permission.BROADCAST_STICKY" />  
+     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+     <!--  -->
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -15,11 +33,17 @@
 
     <application
         
-        android:name="com.example.spground.global.UserInfo"
+        android:name="cn.edu.dlut.spground.global.UserInfo"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         >
+        <meta-data
+         android:name="com.baidu.lbsapi.API_KEY"
+         android:value="99IxyEav6rP4nxhEUOz3wkjs" />
+        <!-- 定位服务 -->
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote">
+            </service>
         <!-- 欢迎界面 -->
         <activity
             android:theme="@android:style/Theme.NoTitleBar"
@@ -76,6 +100,12 @@
              android:name=".WebViewActivity"
              android:screenOrientation="portrait"
             
+            ></activity>
+        <!-- 百度定位 -->
+        <activity 
+             android:theme="@style/ActivityTheme_DefTitle_Style"
+             android:name="cn.edu.dlut.spground.map.MapActivity"
+             android:screenOrientation="portrait"
             ></activity>
     </application>
 
